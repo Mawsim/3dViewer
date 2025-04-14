@@ -127,7 +127,7 @@ void read_vertex(POINT **points, char *str, MINMAX mm, int *vertex_count);
  * @param[in] str line for parsing
  * @param[in] num_indices indices counter
  */
-void read_surface(unsigned **matrix, char *str, int *num_indices);
+void read_surface(unsigned **matrix, char *str, int *num_indices, int num_vertices);
 
 /**
  * @brief Function for adding a segment to a temporary array

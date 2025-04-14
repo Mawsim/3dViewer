@@ -107,3 +107,4 @@ environment:
 	sudo apt-get install -y libglu1-mesa-dev freeglut3-dev mesa-common-dev mesa-utils
 	sudo apt-get install -y libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev libglfw3-dev
 	sudo apt install -y imagemagick
+	sudo apt install g++
